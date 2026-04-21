@@ -16,7 +16,7 @@
             <br>
             <button class="tablink" id="showmore" onclick="openTab()">Show More</button>
             <button id="audiobutton" class="tablink" onclick="meow(event)">Mood</button>
-            <button class="tablink" onclick="toggleDarkMode(event)">Don't Freeze</button>
+            <button id="neverFreeze" class="tablink" onclick="toggleDarkMode(event)">Don't Freeze</button>
         </header>
         <div id="tabcontent">
             <h3>Meet the Next Black Panther</h3>
@@ -42,9 +42,10 @@
                 1. The first flag is hidden in the site's source code. Use the View Page Source feature to find it. If
                 your right-click is disabled, copy and paste this into your web browser:
             <p id="viewsource">
-                href="view-source:https://CodeCrew-CodeSchool.github.io/esd/site" onclick="copyViewSource(event)"
+                <a href="view-source:https://CodeCrew-CodeSchool.github.io/esd/site" onclick="copyViewSource(event)"
                 title="Click to Copy">
                 view-source:https://CodeCrew-CodeSchool.github.io/esd/site
+                </a>
             </p>
             </p>
             <p>

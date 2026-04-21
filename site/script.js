@@ -40,7 +40,7 @@ function toggleDarkMode(event) {
         document.body.style.backgroundColor = "";
         document.body.style.color = "";
         document.querySelectorAll("a, #viewsource").forEach((lmnt)=>{
-            lmnt.style.color = "blue"
+            lmnt.style.color = "a4daff"
         });
 
     } else {
